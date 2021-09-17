@@ -1,0 +1,39 @@
+# http://localhost:3000/api/
+
+
+###
+# getAll
+GET  http://localhost:3000/api/getAll
+
+
+
+
+###
+# postOne
+POST http://localhost:3000/api/postOne
+Content-Type: application/json 
+
+{
+    "name":"Annguyen12",
+    "chanel":"chanel12"
+}
+
+
+
+
+
+###
+#getOne 
+GET  http://localhost:3000/api/getOne/614302234eebe98278abc201
+
+
+###
+#deleteONe 
+
+DELETE http://localhost:3000/api/deleteOne/6143ed9ebefee876e2b443c2
+
+
+###
+#update 
+
+PATCH http://localhost:3000/api/updateOne/614304781afa9ef8d8e835e1
